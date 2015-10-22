@@ -4,7 +4,16 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID:
 // Finish time:
 public class PlanetExplorer {
+	
+	private int y;
+	private int x;
+	private int[][] Grid = new int[x][y];
+	private char direction;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
+		Grid = new int[x][y];
+		
+		
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -15,6 +24,13 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		
+		for (int i = 0; i < command.length(); i++) {
+			if (command.charAt(i) == f) {
+				
+				
+			}
+			
+		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
