@@ -117,3 +117,11 @@ UnitTestSessionAction 1445508750910 TestPlanetExplorer FAIL
 UnitTestCaseAction 1445508796712 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445508796712 TestPlanetExplorer FAIL
 EditAction 1445508815831 TestPlanetExplorer.java 802 3 5 2
+UnitTestCaseAction 1445508817386 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445508817387 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445508862118 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445508862118 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445508945005 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445508945006 TestPlanetExplorer FAIL
+RefactoringAction 1445508980394 TestPlanetExplorer.java ADD void testExplorerIsAtStartPoint() METHOD
+EditAction 1445509034566 TestPlanetExplorer.java 923 4 6 3

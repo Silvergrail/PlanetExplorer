@@ -27,11 +27,15 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void testExplorerIsAtStartPoint() {
+		assertEquals ("00NORTH", testPlanetExplorer.executeCommand());
+		
+	}
+	
+	@Test
 	public void testTheExplorerMovesToNorthFromStart() {
 		
-		assertEquals("0,1,NORTH", testPlanetExplorer.executeCommand("ff") );
-		
-		
-		
+		assertEquals("01NORTH", testPlanetExplorer.executeCommand("ff") );
+			
 	}
 }

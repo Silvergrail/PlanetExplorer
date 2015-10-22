@@ -78,6 +78,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return ("" + pos_x + pos_y + facing);
+		return "" +pos_x+ "" +pos_y+ "" + facing;
 	}
 }
