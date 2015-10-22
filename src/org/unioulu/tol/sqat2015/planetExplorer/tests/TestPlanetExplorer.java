@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 		testPlanetExplorer = new PlanetExplorer(3, 3, null);
 		testGrid = new int [3][3];
 		
-		assertEquals("[[][], [][], [][]]", testGrid);
+		assertEquals("[][], [][], [][]", testGrid);
 		
 	}
 }
