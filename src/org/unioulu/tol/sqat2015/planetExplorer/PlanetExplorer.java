@@ -1,8 +1,8 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID: Jussi Sauvola 1957709
-// Finish time:
+// ID: 137
+// Finish time: 13:30
 public class PlanetExplorer {
 	
 	private int pos_y = 0;
