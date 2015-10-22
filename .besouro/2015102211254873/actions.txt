@@ -1,0 +1,23 @@
+FileOpenedAction 1445502348353 TestPlanetExplorer.java 228 1 1 0
+RefactoringAction 1445502814720 TestPlanetExplorer.java ADD PlanetExplorer testPlanetExplorer FIELD
+RefactoringAction 1445502835730 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+RefactoringAction 1445502872078 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445502875592 TestPlanetExplorer.java RENAME test=>void testPlanetExplorer/2 FIELD
+RefactoringAction 1445502878607 TestPlanetExplorer.java RENAME testPlanetExplorer/2=>void testPlanetExplorerIsCreated FIELD
+RefactoringAction 1445502880620 TestPlanetExplorer.java RENAME testPlanetExplorerIsCreated=>void testPlanetExplorerIsCreatedWith FIELD
+RefactoringAction 1445502884634 TestPlanetExplorer.java RENAME testPlanetExplorerIsCreatedWith=>void testPlanetExplorerIsCreatedWithTwoObstacles FIELD
+RefactoringAction 1445502888648 TestPlanetExplorer.java RENAME testPlanetExplorerIsCreatedWithTwoObstacles=>void testPlanetExplorerIsCreated FIELD
+RefactoringAction 1445502893161 TestPlanetExplorer.java RENAME testPlanetExplorerIsCreated=>void testPlanetExplorerIsCreated2 FIELD
+RefactoringAction 1445502895174 TestPlanetExplorer.java RENAME testPlanetExplorerIsCreated2=>void testPlanetExplorerIsCreated3x3 FIELD
+RefactoringAction 1445502898188 TestPlanetExplorer.java RENAME testPlanetExplorerIsCreated3x3=>void testPlanetExplorerIsCreated3x3() METHOD
+RefactoringAction 1445503221092 TestPlanetExplorer.java ADD String testArray FIELD
+RefactoringAction 1445503247649 TestPlanetExplorer.java ADD String x FIELD
+RefactoringAction 1445503248662 TestPlanetExplorer.java ADD String y FIELD
+RefactoringAction 1445503254175 TestPlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1445503254175 TestPlanetExplorer.java REMOVE y FIELD
+RefactoringAction 1445503255188 TestPlanetExplorer.java ADD String FIELD
+RefactoringAction 1445503257702 TestPlanetExplorer.java REMOVE y FIELD
+RefactoringAction 1445503306116 TestPlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445503311822 TestPlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445503604611 TestPlanetExplorer.java RENAME testArray=>String FIELD
+EditAction 1445503683422 TestPlanetExplorer.java 660 2 4 1
