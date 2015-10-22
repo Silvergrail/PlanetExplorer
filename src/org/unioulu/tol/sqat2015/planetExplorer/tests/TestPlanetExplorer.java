@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 	private PlanetExplorer testPlanetExplorer = new PlanetExplorer(0, 0, null);
 	private int y;
 	private int x; 
-	int[][] testGrid = new int [x][y]; 
+	String[][] testGrid = new String [x][y]; 
 
 	@Test
 	public void test() {
@@ -20,18 +20,18 @@ public class TestPlanetExplorer {
 	@Test
 	public void testPlanetExplorerIsCreated3x3() {
 		testPlanetExplorer = new PlanetExplorer(3, 3, null);
-		testGrid = new int [3][3];
+		testGrid = new String [3][3];
 		
-		assertEquals("{ {}, {}, {}}", testGrid);
+		assertEquals("", testGrid);
 		
 	}
 	
 	@Test
 	public void testTheExplorerMovesToNorthFromStart() {
 		testPlanetExplorer = new PlanetExplorer(3, 3, null);
-		testGrid = new int [3][3];
-		int startPoint = testGrid[0][0];
-		testPlanetExplorer.executeCommand("f");
+		testGrid = new String [3][3];
+		
+		assertEquals("0,1,NORTH", testPlanetExplorer.executeCommand("f") );
 		
 		
 		

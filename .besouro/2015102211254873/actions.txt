@@ -69,3 +69,35 @@ RefactoringAction 1445505780184 PlanetExplorer.java ADD char f FIELD
 RefactoringAction 1445505793713 PlanetExplorer.java REMOVE f FIELD
 EditAction 1445505896948 TestPlanetExplorer.java 895 3 8 1
 EditAction 1445505901256 PlanetExplorer.java 1591 2 3 0
+CompilationAction 1445505901405 PlanetExplorer.java
+UnitTestCaseAction 1445505905290 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445505905290 TestPlanetExplorer FAIL
+RefactoringAction 1445506001700 PlanetExplorer.java ADD char f FIELD
+RefactoringAction 1445506016480 PlanetExplorer.java RENAME f=>char forward FIELD
+RefactoringAction 1445506031188 PlanetExplorer.java ADD char f FIELD
+RefactoringAction 1445506035531 PlanetExplorer.java REMOVE f FIELD
+RefactoringAction 1445506047267 PlanetExplorer.java ADD char f FIELD
+RefactoringAction 1445506051582 PlanetExplorer.java REMOVE forward FIELD
+CompilationAction 1445506095325 PlanetExplorer.java
+RefactoringAction 1445506598775 PlanetExplorer.java ADD char b FIELD
+RefactoringAction 1445507034430 PlanetExplorer.java ADD char r FIELD
+RefactoringAction 1445507040465 PlanetExplorer.java ADD char l FIELD
+RefactoringAction 1445508021218 PlanetExplorer.java RENAME x=>int pos_x FIELD
+RefactoringAction 1445508023736 PlanetExplorer.java RENAME y=>int pos_y FIELD
+RefactoringAction 1445508124511 PlanetExplorer.java REMOVE direction FIELD
+RefactoringAction 1445508126531 PlanetExplorer.java ADD String facing FIELD
+CompilationAction 1445508152184 PlanetExplorer.java
+CompilationAction 1445508152184 PlanetExplorer.java
+CompilationAction 1445508152184 PlanetExplorer.java
+CompilationAction 1445508152184 PlanetExplorer.java
+CompilationAction 1445508152185 PlanetExplorer.java
+CompilationAction 1445508152185 PlanetExplorer.java
+CompilationAction 1445508289818 PlanetExplorer.java
+CompilationAction 1445508289990 PlanetExplorer.java
+CompilationAction 1445508289991 PlanetExplorer.java
+RefactoringAction 1445508309647 PlanetExplorer.java REMOVE Grid FIELD
+CompilationAction 1445508315589 PlanetExplorer.java
+CompilationAction 1445508315589 PlanetExplorer.java
+UnitTestCaseAction 1445508454849 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445508454849 TestPlanetExplorer FAIL
+EditAction 1445508505025 TestPlanetExplorer.java 890 3 7 2

@@ -5,13 +5,17 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	
-	private int y;
-	private int x;
-	private int[][] Grid = new int[x][y];
-	private char direction;
+	private int pos_y;
+	private int pos_x;
+	//private String[][] Grid = new String[x][y];
+	private String facing = "NORTH";
+	private char f;
+	private char b;
+	private char r;
+	private char l;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
-		Grid = new int[x][y];
+		//Grid = new String[x][y];
 		
 		
 	/*	x and y represent the size of the grid.
@@ -25,10 +29,43 @@ public class PlanetExplorer {
 	public String executeCommand(String command){
 		
 		for (int i = 0; i < command.length(); i++) {
-			if (command.charAt(i) == f) {
-				
-				
+			if (command.charAt(i) == f && facing == "NORTH") {
+				pos_y =+ 1;
+			} else if (command.charAt(i) == f && facing == "SOUTH") {
+				pos_y =-1;			
+			} else if (command.charAt(i) == f && facing == "WEST") {
+				pos_x =- 1;			
+			} else if (command.charAt(i) == f && facing == "EAST") {
+				pos_x =+ 1;			
 			}
+			
+			if (command.charAt(i) == b && facing == "NORTH") {
+				pos_y =- 1;
+			} else if (command.charAt(i) == b && facing == "SOUTH") {
+				pos_y =+ 1;
+			} else if (command.charAt(i) == b && facing == "WEST") {
+				pos_x =+ 1;
+			} else if (command.charAt(i) == b && facing == "EAST") {
+				pos_x =- 1;
+			}
+				if (command.charAt(i) == r && facing == "NORTH") {
+					facing = "EAST";		
+				} else if (command.charAt(i) == r && facing == "EAST") {
+					facing = "SOUTH";
+				} else if (command.charAt(i) == r && facing == "SOUTH") {
+					facing = "WEST";
+				} else if (command.charAt(i) == r && facing == "WEST") {
+					facing = "NORTH";
+				}
+					if (command.charAt(i) == l && facing == "NORTH") {
+						facing = "WEST";
+					} else if (command.charAt(i) == l && facing == "WEST") {
+						facing = "SOUTH";
+					} else if (command.charAt(i) == l && facing == "SOUTH") {
+						facing = "EAST";
+					} else if (command.charAt(i) == l && facing == "EAST") {
+						facing = "NORTH";
+					}
 			
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -41,6 +78,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		return "" + pos_x + pos_y + facing;
 	}
 }
