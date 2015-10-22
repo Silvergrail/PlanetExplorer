@@ -7,7 +7,7 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
 	
-	private PlanetExplorer testPlanetExplorer = new PlanetExplorer(0, 0, null);
+	private PlanetExplorer testPlanetExplorer = new PlanetExplorer(3, 3, null);
 	private int y;
 	private int x; 
 	String[][] testGrid = new String [x][y]; 
