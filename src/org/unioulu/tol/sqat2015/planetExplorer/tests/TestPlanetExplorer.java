@@ -28,7 +28,6 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testTheExplorerMovesToNorthFromStart() {
-		testPlanetExplorer = new PlanetExplorer(3, 3, null);
 		
 		assertEquals("0,1,NORTH", testPlanetExplorer.executeCommand("ff") );
 		
