@@ -21,3 +21,4 @@ RefactoringAction 1445503306116 TestPlanetExplorer.java ADD int y FIELD
 RefactoringAction 1445503311822 TestPlanetExplorer.java ADD int x FIELD
 RefactoringAction 1445503604611 TestPlanetExplorer.java RENAME testArray=>String FIELD
 EditAction 1445503683422 TestPlanetExplorer.java 660 2 4 1
+EditAction 1445503687878 PlanetExplorer.java 1342 2 1 0
