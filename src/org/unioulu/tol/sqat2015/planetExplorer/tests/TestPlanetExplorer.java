@@ -29,7 +29,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void testTheExplorerMovesToNorthFromStart() {
 		testPlanetExplorer = new PlanetExplorer(3, 3, null);
-		testGrid = new String [3][3];
 		
 		assertEquals("0,1,NORTH", testPlanetExplorer.executeCommand("f") );
 		
