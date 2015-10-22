@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 	private PlanetExplorer testPlanetExplorer = new PlanetExplorer(0, 0, null);
 	private int y;
 	private int x; 
-	String[][] testGrid = new String [x][y]; 
+	int[][] testGrid = new int [x][y]; 
 
 	@Test
 	public void test() {
@@ -20,7 +20,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testPlanetExplorerIsCreated3x3() {
 		testPlanetExplorer = new PlanetExplorer(3, 3, null);
-		testGrid = new String [3][3];
+		testGrid = new int [3][3];
 		
 		assertEquals("[[][], [][], [][]]", testGrid);
 		
