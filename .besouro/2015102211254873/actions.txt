@@ -43,3 +43,28 @@ EditAction 1445504277186 TestPlanetExplorer.java 635 2 4 1
 UnitTestCaseAction 1445504278762 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445504278762 TestPlanetExplorer FAIL
 EditAction 1445504296701 TestPlanetExplorer.java 647 2 4 1
+UnitTestCaseAction 1445504298378 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445504298379 TestPlanetExplorer FAIL
+RefactoringAction 1445504347450 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445504349464 TestPlanetExplorer.java RENAME test=>void testTh FIELD
+RefactoringAction 1445504350478 TestPlanetExplorer.java RENAME testTh=>void testThe FIELD
+RefactoringAction 1445504351992 TestPlanetExplorer.java RENAME testThe=>void testTheE FIELD
+RefactoringAction 1445504354506 TestPlanetExplorer.java RENAME testTheE=>void testTheExplorer FIELD
+RefactoringAction 1445504361021 TestPlanetExplorer.java RENAME testTheExplorer=>void testTheExplorerMoves FIELD
+RefactoringAction 1445504366036 TestPlanetExplorer.java RENAME testTheExplorerMoves=>void testTheExplorerMovesToNorth FIELD
+RefactoringAction 1445504371550 TestPlanetExplorer.java RENAME testTheExplorerMovesToNorth=>void testTheExplorerMovesToNorthFromStart FIELD
+RefactoringAction 1445504374065 TestPlanetExplorer.java RENAME testTheExplorerMovesToNorthFromStart=>void testTheExplorerMovesToNorthFromStart() METHOD
+RefactoringAction 1445504444880 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445504452413 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x FIELD
+RefactoringAction 1445504474121 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445504476932 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445504482053 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1445504485957 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445505313536 PlanetExplorer.java ADD char a FIELD
+RefactoringAction 1445505321565 PlanetExplorer.java REMOVE a FIELD
+RefactoringAction 1445505445071 PlanetExplorer.java ADD Object direction FIELD
+RefactoringAction 1445505757437 PlanetExplorer.java ADD char f FIELD
+RefactoringAction 1445505768155 PlanetExplorer.java REMOVE f FIELD
+RefactoringAction 1445505780184 PlanetExplorer.java ADD char f FIELD
+RefactoringAction 1445505793713 PlanetExplorer.java REMOVE f FIELD
+EditAction 1445505896948 TestPlanetExplorer.java 895 3 8 1

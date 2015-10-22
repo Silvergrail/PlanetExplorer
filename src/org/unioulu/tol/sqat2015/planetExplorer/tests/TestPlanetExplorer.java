@@ -22,7 +22,18 @@ public class TestPlanetExplorer {
 		testPlanetExplorer = new PlanetExplorer(3, 3, null);
 		testGrid = new int [3][3];
 		
-		assertEquals("000000000000", testGrid);
+		assertEquals("{ {}, {}, {}}", testGrid);
+		
+	}
+	
+	@Test
+	public void testTheExplorerMovesToNorthFromStart() {
+		testPlanetExplorer = new PlanetExplorer(3, 3, null);
+		testGrid = new int [3][3];
+		int startPoint = testGrid[0][0];
+		testPlanetExplorer.executeCommand("f");
+		
+		
 		
 	}
 }
