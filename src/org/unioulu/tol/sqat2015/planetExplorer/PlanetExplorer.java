@@ -5,8 +5,8 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	
-	private int pos_y;
-	private int pos_x;
+	private int pos_y = 0;
+	private int pos_x = 0;
 	//private String[][] Grid = new String[x][y];
 	private String facing = "NORTH";
 	private char f;
@@ -30,7 +30,7 @@ public class PlanetExplorer {
 		
 		for (int i = 0; i < command.length(); i++) {
 			if (command.charAt(i) == f && facing == "NORTH") {
-				pos_y =+ 1;
+				pos_y += 1;
 			} else if (command.charAt(i) == f && facing == "SOUTH") {
 				pos_y =-1;			
 			} else if (command.charAt(i) == f && facing == "WEST") {
@@ -39,7 +39,7 @@ public class PlanetExplorer {
 				pos_x =+ 1;			
 			}
 			
-			if (command.charAt(i) == b && facing == "NORTH") {
+			else if (command.charAt(i) == b && facing == "NORTH") {
 				pos_y =- 1;
 			} else if (command.charAt(i) == b && facing == "SOUTH") {
 				pos_y =+ 1;
@@ -48,7 +48,7 @@ public class PlanetExplorer {
 			} else if (command.charAt(i) == b && facing == "EAST") {
 				pos_x =- 1;
 			}
-				if (command.charAt(i) == r && facing == "NORTH") {
+			else if (command.charAt(i) == r && facing == "NORTH") {
 					facing = "EAST";		
 				} else if (command.charAt(i) == r && facing == "EAST") {
 					facing = "SOUTH";
