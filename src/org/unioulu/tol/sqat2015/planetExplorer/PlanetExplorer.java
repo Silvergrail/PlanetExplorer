@@ -1,13 +1,12 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
+// ID: Jussi Sauvola 1957709
 // Finish time:
 public class PlanetExplorer {
 	
 	private int pos_y = 0;
 	private int pos_x = 0;
-	//private String[][] Grid = new String[x][y];
 	private String facing = "NORTH";
 	private char f;
 	private char b;
@@ -15,7 +14,7 @@ public class PlanetExplorer {
 	private char l;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
-		//Grid = new String[x][y];
+	String Grid[][] = new String[x][y];
 		
 		
 	/*	x and y represent the size of the grid.
@@ -32,7 +31,7 @@ public class PlanetExplorer {
 			if (command.charAt(i) == f && facing == "NORTH") {
 				pos_y += 1;
 			} else if (command.charAt(i) == f && facing == "SOUTH") {
-				pos_y =-1;			
+				pos_y =- 1;			
 			} else if (command.charAt(i) == f && facing == "WEST") {
 				pos_x =- 1;			
 			} else if (command.charAt(i) == f && facing == "EAST") {
@@ -78,6 +77,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return "" +pos_x+ "" +pos_y+ "" + facing;
+		return ("" +pos_x+ "," +pos_y+ "," + facing);
 	}
 }

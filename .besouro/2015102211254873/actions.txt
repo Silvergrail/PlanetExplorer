@@ -141,3 +141,18 @@ EditAction 1445509283949 TestPlanetExplorer.java 795 3 5 2
 UnitTestCaseAction 1445509286764 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445509286764 TestPlanetExplorer FAIL
 EditAction 1445509312842 TestPlanetExplorer.java 851 3 6 2
+UnitTestCaseAction 1445509315515 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509315516 TestPlanetExplorer FAIL
+RefactoringAction 1445509340393 PlanetExplorer.java ADD String FIELD
+RefactoringAction 1445509356448 PlanetExplorer.java REMOVE Grid FIELD
+UnitTestCaseAction 1445509386976 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509386976 TestPlanetExplorer FAIL
+CompilationAction 1445509604408 PlanetExplorer.java
+CompilationAction 1445509638138 PlanetExplorer.java
+UnitTestCaseAction 1445509640917 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509640918 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445509704176 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509704176 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445509722548 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509722549 TestPlanetExplorer FAIL
+EditAction 1445509730379 TestPlanetExplorer.java 853 3 6 2
